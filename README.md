@@ -13,18 +13,18 @@ UIControl
 4.メソッド実装</br>
 
 ## 主要プロパティ                                       
-|プロパティ名             |                      説明                                                      |                サンプル              |
-|:--------------------|:------------------------------------------------:|:-----------------------------------:|
-|hidesWhenStopped  | アニメーション中でない時に、indicatorを隠す       |indicator.hidesWhenStopped = true |                             
-|isAnimating               | アニメーション中か確認(Bool)                                  |indicator.isAnimating                        |
-|color                 　　  | indicatorに色をつける                                               |indicator.colar = UIColar.red             |
+|プロパティ名           |               説明                    |                サンプル                  |
+|:--------------------|:------------------------------------:|:---------------------------------------:|
+|placeholder　　　　　　| placeholderの指定      　　　　　　　　　| textField.placeholder = "テキストを入力"   |                           
+|backgroundColor      | 背景色を指定                           | textField.backgroundColor = UIColor.red |
+|clearButtonMode      | 削除ボタンの設置                        | textField.clearButtonMode = .always     |
 
 ## 主要メソッド
 |        メソッド       |                       説明                        |                サンプル               |
 |:-----------------|:------------------------------------------------:|:------------------------------------:|
 |startAnimating()  |アニメーションスタート                |indicator.startAnimating()  |      
 |stopAnimating()   |アニメーションストップ                |indicator.stopAnimating()   |
-
+|clearButtonMode
 
 ## フレームワーク
 UIKit.framework
@@ -39,4 +39,5 @@ iOS2.0以上
 | XCode    | 8.2.1     |
 | iOS      | 10.0〜    |
 
-## 参考　https://developer.apple.com/reference/uikit/uitextfield#1965766
+## 参考　
+https://developer.apple.com/reference/uikit/uitextfield#1965766
