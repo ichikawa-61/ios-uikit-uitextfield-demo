@@ -15,16 +15,14 @@ UIControl
 ## 主要プロパティ                                       
 |プロパティ名           |               説明                    |                サンプル                  |
 |:--------------------|:------------------------------------:|:---------------------------------------:|
-|placeholder　　　　　　| placeholderの指定      　　　　　　　　　| textField.placeholder = "テキストを入力"   |                           
-|backgroundColor      | 背景色を指定                           | textField.backgroundColor = UIColor.red |
-|clearButtonMode      | 削除ボタンの設置                        | textField.clearButtonMode = .always     |
+|placeholder　　　　　　|placeholderの指定      　　　　　　　　　 | textField.placeholder = "テキストを入力"   |                           
+|backgroundColor    |背景色を指定                            | textField.backgroundColor = UIColor.red |
+|clearButtonMode    |削除ボタンの設置                         | textField.clearButtonMode = .always     |
 
 ## 主要メソッド
-|        メソッド       |                       説明                        |                サンプル               |
-|:-----------------|:------------------------------------------------:|:------------------------------------:|
-|startAnimating()  |アニメーションスタート                |indicator.startAnimating()  |      
-|stopAnimating()   |アニメーションストップ                |indicator.stopAnimating()   |
-|clearButtonMode
+|        メソッド       |                   説明                   |                サンプル               |
+|:---------------------|:---------------------------------------:|:------------------------------------:|
+|resignFirstResponder()|キーボードを閉じる               　　　　　　　|textField.resignFirstResponder()　　　|      
 
 ## フレームワーク
 UIKit.framework
